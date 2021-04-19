@@ -15,9 +15,20 @@ let phonebook = [
 
     // Add your code here
 
+    /*In this next task, we want you to write a simple program that, given a name, searches an array of objects containing names and phone numbers (phonebook) and, if it finds the name, outputs the name and phone number into the paragraph (para) and then exits the loop before it has run its course.*/
+
     /*Create a while loop*/
 
     while (i < phonebook.length) {
+
+        /*Create condition that checks: If true - print name and contact; if not - print Contact Not Found!*/
+
+        if (phonebook[i].name === name) {
+            para.textContent = phonebook[i].name + ' : ' + phonebook[i].number;
+            break
+        } else {
+            para.textContent = 'Contact Not Found!';
+        }
 
         i++
     }
