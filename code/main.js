@@ -26,9 +26,9 @@ let phonebook = [
         if (phonebook[i].name === name) {
             para.textContent = phonebook[i].name + ' : ' + phonebook[i].number;
             break
-        } else {
+        } else if (i === phonebook.length -1) {
             para.textContent = 'Contact Not Found!';
-        }
+        } /*Changed else to if else so that loop runs once*/
 
         i++
     }
