@@ -9,3 +9,7 @@ You are given three variables to begin with:
 - para — contains a reference to a paragraph, which will be used to report the results.
 
 You should use a type of loop that you've not used in the previous task.
+
+Ref: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Test_your_skills:_Loops
+
+Live web: https://gitthuma.github.io/loops-2/
