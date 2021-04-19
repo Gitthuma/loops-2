@@ -15,6 +15,13 @@ let phonebook = [
 
     // Add your code here
 
+    /*Create a while loop*/
+
+    while (i < phonebook.length) {
+
+        i++
+    }
+
     // Don't edit the code below here!
     let section = document.querySelector('section');
     section.appendChild(para);
